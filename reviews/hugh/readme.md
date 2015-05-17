@@ -1,0 +1,1 @@
+ I made some progress and have set aside as much time as possible this week to get it done. Some help would be good though! 
