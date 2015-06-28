@@ -91,8 +91,7 @@ results would you be more confident in presenting to your manager? Why's that?
 # model fitting (female)
 regrf = linear_model.LinearRegression()
 
-myt_male = nyt[nyt.Gender==0]
-X = myt_male[['Age','Gender']].values
+X = nyt[nyt.Gender==0][['Age','Gender']].values
 y = nyt[nyt.Gender==0]['Ctr'].values
 
 regrf.fit(X, y)
